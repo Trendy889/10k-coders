@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex boxx</title>
+    <style>
+     #container{
+        display:flex;
+        background-color: aquamarine;
+        align-content: center;
+        justify-content: center;
+        width: 800px;
+        height: 1000px;
+      
+        
+        background-image: url(https://th.bing.com/th/id/OIP.Icuq64EIJwrkM5ow9B5rMAHaEo?w=313&h=195&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+        background-repeat: no-repeat;
+        background-size: cover;
+     }
+     #container div{
+        background-color: bisque;
+        align-items: center;
+        margin: 10PX;
+        width: 500px;
+        height: fit-content;
+        margin-top: 60px;
+        border-radius: 10%;
+        
+        
+     }
+     img{
+        width: 130px;
+        height: 125px;
+        border-radius: 50%;
+        display:block;
+        margin: auto;
+        align-items: center;
+
+     }
+     button{
+        background-color: rgb(48, 73, 110);
+        display: block;
+        margin: auto;
+        border-radius: 20%;
+        
+        
+     }
+     a{
+        color: white;
+        text-decoration: none;
+        align-items: center;
+        
+     }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+    <div><h1 style="text-align: center;">The Sun</h1>
+    <img src="https://th.bing.com/th/id/OIP.t_niOrvKlf1TyENbYuFfQQHaEo?w=239&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7">
+        <p>The sun not only has a much larger radius than Earth—it is also much more massive. The sun's mass is more than 333,000 times that of Earth, and contains about 99.8 percent of all of the mass in the entire solar system! The sun is made up of a blazing combination of gases. These gases are actually in the form of plasma.</p>
+        <h3>To know more about sun visitlink below</h3>
+    <button><a href="https://en.wikipedia.org/wiki/Sun">Click Here</a></button>
+    </div>
+           
+    <div><h1 style="text-align: center;">The Earth</h1>
+    <img src="data:image/jpeg;base64,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">
+    <p>Earth, third planet from the Sun and the fifth largest planet in the solar system in terms of size and mass. Its single most outstanding feature is that its near-surface environments are the only places in the universe known to harbour life. according to studies living life found millions years back on the earth.</p>
+    <h3>To know more about Earth visit below link</h3>
+    <button><a href="https://www.britannica.com/place/Earth">Click Here</a></button>
+
+</div>
+    <div>
+        <h1 style="text-align: center;">The Moon</h1>
+        <img src="https://th.bing.com/th/id/R.fdb9049239073ead00a7e500402728c6?rik=fWr0XieUXXws3Q&riu=http%3a%2f%2fwww.hrwc.org%2fwp-content%2fuploads%2f2013%2f07%2fFull-Moon-best.jpg&ehk=zexiA7og%2ftrT0pGbwaTSYGcJrpp2U0o3GIo6DhrOej0%3d&risl=&pid=ImgRaw&r=0">
+        <p>The Moon is Earth's only natural satellite. It orbits at an average distance of 384400 km (238900 mi), about 30 times the planet's diameter. The Moon always presents the same side to Earth, because gravitational pull has locked its rotation to the planet. This results in the lunar day of 29.5 days matching the lunar month.</p>
+        <h3>To Know More about Moon visit below link</h3>
+        <button><a href="https://en.wikipedia.org/wiki/Moon">Click Here</a></button>
+    </div>
+    </div>
+</body>
+</html>
